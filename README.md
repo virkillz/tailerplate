@@ -1,4 +1,4 @@
-#Tailerplate
+# Tailerplate
 
 Very simple boilerplate for tailwind css
 
@@ -12,10 +12,19 @@ The goal of this boilerplate is to provide a go-to template to start develop htm
 
 * Clone this repo and run `npm install`
 
-* Run `npm run init` to generate 
+* Run `npm run init` to generate `tailwind.config.js` and `public/css/style.css`
 
 * Run local server with `npm run server`
 
 Now you can modify publix/index.html or create other html files.
 
-- virkillz -
+
+### How to regenerate style.css after you modify tailwind.config.js
+
+You can modify tailwind.config.js. To make impact on style.css, run `npm run refresh`
+
+### Purge and Minify CSS
+
+When you done, you can run `npm run build`. This will create style.min.js and now you can refer from your HTML files instead of style.css
+
+ virkillz 
