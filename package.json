@@ -1,0 +1,26 @@
+{
+  "name": "tailerplate",
+  "version": "1.0.0",
+  "description": "\"Very simple boilerplate for Tailwind Css including script for Purge and minify using postcss\"",
+  "main": "index.js",
+  "scripts": {
+    "init": "npx tailwind init --full && npx tailwind build src/input.css -o css/style.css",
+    "rebuild": "npx tailwind build src/input.css -o css/style.css",
+    "minify": "purgecss --css css/style.css --content public/*.html -o src && postcss src/style.css > css/style.min.css && echo \" Sukses! \" ",
+    "server": "http-server"
+  },
+  "keywords": [
+    "tailwindcss"
+  ],
+  "author": "virkill",
+  "license": "MIT",
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "http-server": "^0.11.1",
+    "postcss": "^7.0.16",
+    "postcss-cli": "^6.1.2",
+    "purgecss": "^1.3.0",
+    "tailwindcss": "^1.0.1"
+  },
+  "dependencies": {}  
+}
