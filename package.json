@@ -4,9 +4,9 @@
   "description": "\"Very simple boilerplate for Tailwind Css including script for Purge and minify using postcss\"",
   "main": "index.js",
   "scripts": {
-    "init": "npx tailwind init --full && npx tailwind build src/input.css -o css/style.css",
-    "rebuild": "npx tailwind build src/input.css -o css/style.css",
-    "minify": "purgecss --css css/style.css --content public/*.html -o src && postcss src/style.css > css/style.min.css && echo \" Sukses! \" ",
+    "init": "npx tailwind init --full && npx tailwind build src/input.css -o public/css/style.css",
+    "rebuild": "npx tailwind build src/input.css -o public/css/style.css",
+    "minify": "purgecss --css public/css/style.css --content public/*.html -o src && postcss src/style.css > public/css/style.min.css && echo \" Sukses! \" ",
     "server": "http-server"
   },
   "keywords": [
