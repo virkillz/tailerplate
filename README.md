@@ -8,7 +8,7 @@ The goal of this boilerplate is to provide a go-to template to start develop htm
 * Provide way to easily recompile css after change tailwind config
 * Purge and minify CSS for production
 
-### How to start
+## 1. to start
 
 * Run `npm install`
 
@@ -17,12 +17,18 @@ The goal of this boilerplate is to provide a go-to template to start develop htm
 Now you can start edit your HTML. Just in case you need instant web server, just run `npm run server` and visit http://localhost:8080.
 
 
-### How to regenerate style.css if you modify tailwind.config.js
+## 2. regenerate style.css 
 
-Run `npm run refresh` to regenerate new `style.css` from tailwind.config.js
+if you modify tailwind.config.js
 
-### Purge and Minify CSS
+* `npm run refresh` 
 
-When you done, you can run `npm run build`. This will create `style.min.js` and now you can refer from your HTML files instead of `style.css`
+## 3. Go Production
 
- virkillz 
+to remove unused class from style.css and minify it
+
+* `npm run build`. 
+
+This will create `style.min.js` and now you can refer from your HTML files instead of `style.css`
+
+~vrql
