@@ -14,7 +14,7 @@ The goal of this boilerplate is to provide a go-to template to start develop htm
 
 * Run `npm run init`.
 
-Now you can start edit your HTML. Just in case you need instant web server, just run `npm run server` and visit http://localhost:8080.
+Now you can start edit your HTML. Just in case you need instant web server, just run `npm run start` and visit http://localhost:8080.
 
 
 ## 2. regenerate style.css 
