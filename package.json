@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "\"Very simple boilerplate for Tailwind Css including script for Purge and minify using postcss\"",
   "main": "index.js",
+  "repository": "https://github.com/virkillz/tailerplate.git",
   "scripts": {
     "init": "npx tailwind init --full && npx tailwind build src/input.css -o public/css/style.css",
     "refresh": "npx tailwind build src/input.css -o public/css/style.css",
